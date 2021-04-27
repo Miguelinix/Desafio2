@@ -1,0 +1,66 @@
+@import url('http://fonts.googleapis.com/css?family=Didact+Gothic');
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+*{
+    font-family:'Didact Gothic';
+}
+body{
+    background-color:rgb(255, 255, 255);
+}
+.contenedor{
+    position:relative;
+    top:20px;
+    width:500px;
+    margin:auto;
+    background-color: #cdf5ff;
+    padding:50px;
+    border-radius: 20px;
+}
+.contenedor .form-row h2{
+    text-align:center;
+    font-size:1.5em;
+}
+.imagen{
+    width:100px;
+    height:100px;
+    border-radius:50px;
+}
+.titulo{
+    font-family:Arial, Helvetica, sans-serif;
+    color:#ffffff;
+    font-size:large;
+}
+.botonRegistrar{
+    background-color: #1A86A1;
+    color:#ffffff;
+    font-family:'Didact Gothic' ;
+    font-size:18px;
+}
+.botonRegistrar:hover{
+    background-color: #ffffff;
+    color:#1A86A1;
+    
+}
+.botonCancelar{
+    background-color: #972222;
+    color:#ffffff;
+    font-family:'Didact Gothic' ;
+    font-size:18px;
+}
+.botonCancelar:hover{
+    background-color: #ffffff;
+    color:#972222;
+}
+.btn-container .form-row{
+    float:left;
+    padding-right:40px;
+}
+.btn-container{
+    margin-top:20px;
+    margin-left:75px;
+}
+#container-msg{
+    margin-left:480px;
+    margin-top:40px;
+    margin-bottom:20px;
+   
+}
